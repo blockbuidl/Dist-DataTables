@@ -1,5 +1,5 @@
 {
-    "name": "datatables.net",
+    "name": "datatables.net_windowfix",
     "description": "jQuery DataTables",
     "main": "js/jquery.dataTables.js",
     "module": "js/jquery.dataTables.mjs",
@@ -30,6 +30,9 @@
         "datatables.json",
         "package.json"
     ],
+    "publishConfig": {
+        "registry": "https://npm.pkg.github.com"
+    },
     "author": {
         "name": "SpryMedia Ltd",
         "url": "http://datatables.net"
