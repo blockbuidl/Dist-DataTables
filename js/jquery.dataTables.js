@@ -54,7 +54,7 @@
 			};
 		}
 		else {
-			return factory( jq, window, window.document );
+			return "";//factory( jq, window, window.document );
 		}
 	}
 	else {
